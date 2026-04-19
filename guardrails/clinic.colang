@@ -1,0 +1,20 @@
+define user ask medical_diagnosis
+  "¿tengo caries?"
+  "¿qué enfermedad tengo?"
+  "¿es grave?"
+  "¿necesito ortodoncia?"
+
+define bot refuse medical_diagnosis
+  "Para diagnosticar necesitamos verte. ¿Te agendo con el doctor?"
+
+define user ask price_offhand
+  "¿cuánto cuesta limpieza?"
+  "precio endodoncia"
+
+define flow
+  user ask medical_diagnosis
+  bot refuse medical_diagnosis
+
+define flow
+  user ask price_offhand
+  execute search_clinic_info

@@ -1,0 +1,12 @@
+langgraph==0.2.60
+langchain-anthropic==0.3.0
+langchain-community==0.3.10
+psycopg[binary]==3.2.3
+mem0ai==0.1.31
+temporalio==1.8.0
+nemoguardrails==0.11.1
+qdrant-client==1.12.1
+redis==5.2.1
+langfuse==2.58.1
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
