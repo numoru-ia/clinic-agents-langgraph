@@ -1,3 +1,5 @@
+> Read the full article on Numoru: https://numoru.com/en/contributions/agentes-clinica-dental-langgraph
+
 # clinic-agents-langgraph
 
 Three orchestrated LangGraph agents for a dental clinic: appointments + reminders + reviews.
